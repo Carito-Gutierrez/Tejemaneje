@@ -1,0 +1,65 @@
+* {
+  font-family: cursive;
+  margin: 0;
+}
+
+.barra {
+  display: flex;
+  width: 100%;
+  background-color: #e68b9f96;
+  padding: 0.5rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 4rem;
+}
+
+.titulo-principal {
+  color: #e74c68;
+}
+
+body {
+  background-color: #ffe3c09c;
+}
+.section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 5rem;
+}
+.opcion {
+  display: flex;
+  list-style: none;
+  color: #e74c68;
+}
+.inicio {
+  display: flex;
+  text-decoration: none;
+  color: #b1394fca;
+  justify-content: center;
+  margin-right: 0.5rem;
+}
+
+.collage {
+  height: auto;
+  width: 100%;
+}
+.cajitas {
+  display: flex;
+  background-color: #e68b9f96;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  margin: 1rem;
+}
+
+.titulo {
+  display: flex;
+  color: #e74c68;
+  justify-content: center;
+  font-size: 1.5rem;
+}

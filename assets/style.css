@@ -1,0 +1,94 @@
+* {
+  font-family: cursive;
+  margin: 0;
+}
+
+body {
+  background-color: #ffe3c09c;
+}
+.barra {
+  display: flex;
+  background-color: #e68b9f96;
+  padding: 0.5rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 4rem;
+}
+.menu-options-container {
+  display: flex;
+  list-style: none;
+  padding: 0.5rem;
+}
+
+.list-item {
+  text-decoration: none;
+  color: #e74c68;
+  padding: 1rem;
+}
+
+.imagen-principal {
+  height: auto;
+  width: 100%;
+}
+
+.section-2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.prendas-de-vestir {
+  display: flex;
+  background-color: #e68b9f96;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  margin: 1rem;
+}
+.prendas {
+  display: flex;
+  height: 200px;
+  padding: 0 3rem 0 3rem;
+  border-radius: 1.5rem;
+}
+.texto-prendas {
+  display: flex;
+  color: #e74c68;
+  justify-content: center;
+  text-align: justify;
+  padding: 0.5rem;
+}
+
+.ver-mas {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  color: #b1394fca;
+  justify-content: center;
+}
+.amigu {
+  height: 200px;
+}
+
+.amigurumis {
+  display: flex;
+  background-color: #e68b9f96;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  margin: 1rem;
+}
+.texto-amigurumis {
+  display: flex;
+  color: #e74c68;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  padding: 0.5rem;
+}

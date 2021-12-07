@@ -1,0 +1,74 @@
+* {
+  font-family: cursive;
+  margin: 0;
+}
+
+.barra {
+  display: flex;
+  width: 100%;
+  background-color: #e68b9f96;
+  padding: 0.5rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 4rem;
+}
+
+.titulo-principal {
+  color: #e74c68;
+}
+
+body {
+  background-color: #ffe3c09c;
+}
+
+.opcion {
+  display: flex;
+  list-style: none;
+  color: #e74c68;
+}
+.inicio {
+  display: flex;
+  text-decoration: none;
+  color: #b1394fca;
+  justify-content: center;
+  margin-right: 0.5rem;
+}
+
+.gatos {
+  display: flex;
+  background-color: #e68b9f96;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  width: 350px;
+  padding: 0.5rem;
+  border-radius: 1.5rem;
+  margin: 1rem;
+}
+.gato {
+  display: flex;
+  height: 150px;
+  padding: 0.5rem;
+}
+
+.principal {
+  display: flex;
+  height: 400px;
+  background-color: #e68b9f96;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  margin: 1rem;
+}
+.amigurumis {
+  display: flex;
+  justify-content: center;
+}
+
+.section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 5rem;
+}
