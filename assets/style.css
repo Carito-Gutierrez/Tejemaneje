@@ -7,6 +7,9 @@
   background-color: #e68b9f96;
 }
 
+body {
+  background-color: #ffe3c09c;
+}
 .fab {
   color: #e74c68;
 }
@@ -17,9 +20,53 @@
   height: 400px;
 }
 
+.card {
+  display: flex;
+  background-color: #e68b9f96;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  padding: 0.5rem;
+  border-radius: 1.5rem;
+  margin: 1rem;
+  height: 500px;
+}
+
+.container {
+  margin-top: 1rem;
+  background-color: #e68b9f96;
+  padding: 0 20rem 0 25rem;
+}
+
+.prendas {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.img-fluid {
+  height: 300px;
+  width: 300px;
+}
+
+.card-text {
+  color: #e74c68;
+  justify-content: center;
+  text-align: justify;
+  padding: 0.5rem;
+}
+
+/*.barra {
+  display: flex;
+  width: 100%;
+  background-color: #e68b9f96;
+  padding: 0.5rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
 /*
-body {
-  background-color: #ffe3c09c;
+
 }
 .barra {
   display: flex;
@@ -54,15 +101,7 @@ body {
   justify-content: space-evenly;
 }
 
-.prendas-de-vestir {
-  display: flex;
-  background-color: #e68b9f96;
-  align-items: center;
-  flex-direction: column;
-  width: 300px;
-  padding: 1rem;
-  border-radius: 1.5rem;
-  margin: 1rem;
+
 }
 .prendas {
   display: flex;
