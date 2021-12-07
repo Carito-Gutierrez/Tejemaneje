@@ -13,6 +13,9 @@
 .fas {
   color: #e74c68;
 }
+.carousel-item {
+  height: 400px;
+}
 
 /*
 body {
