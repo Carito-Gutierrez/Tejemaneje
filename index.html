@@ -5,41 +5,199 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TEJEMANEJE</title>
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.css"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
     <link rel="stylesheet" href="assets/style.css" />
   </head>
   <body>
-    <div class="barra">
-      <img class="logo" src="assets/img/logo.png" alt="" />
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <!-- Container wrapper -->
+      <div class="container-fluid">
+        <!-- Toggle button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
 
-      <ul class="menu-options-container">
-        <li>
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Navbar brand -->
+          <a class="navbar-brand mt-2 mt-lg-0" href="#">
+            <img src="assets/img/logo.png" height="30" alt="" loading="lazy" />
+          </a>
+          <!-- Left links -->
+
+          <!-- Left links -->
+        </div>
+        <!-- Collapsible wrapper -->
+
+        <!-- Right elements -->
+        <div class="d-flex align-items-center">
+          <!-- Icon -->
           <a
+            class="text-reset me-3"
             href="https://www.facebook.com/Tejemaneje-107423574507961"
             target="_blank"
-            class="list-item"
-            >Facebook
+          >
+            <i class="fab fa-facebook-square"></i>
           </a>
-        </li>
-        <li>
+
+          <!-- Notifications -->
           <a
+            class="text-reset me-3 dropdown-toggle hidden-arrow"
             href="https://www.instagram.com/tejemanejecolor/?hl=es-la"
             target="_blank"
-            class="list-item"
-            >Instagram</a
+            id="navbarDropdownMenuLink"
+            role="button"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
           >
-        </li>
-        <li>
-          <a
-            href="mailto: tejemanejecalu@gmail.com "
-            target="_blank"
-            class="list-item"
-            >Email</a
-          >
-        </li>
-      </ul>
-    </div>
+            <i class="fab fa-instagram"></i>
+          </a>
 
-    <section class="section">
+          <!-- Avatar -->
+          <a
+            class="dropdown-toggle d-flex align-items-center hidden-arrow"
+            href="mailto:tejemanejecalu@gmail.com"
+            id="navbarDropdownMenuLink"
+            role="button"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <i class="fas fa-envelope-open-text"></i>
+          </a>
+
+          <ul
+            class="dropdown-menu dropdown-menu-end"
+            aria-labelledby="navbarDropdownMenuLink"
+          >
+            <li>
+              <a class="dropdown-item" href="#">My profile</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Settings</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Logout</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Right elements -->
+      </div>
+      <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+    <!-- Carousel wrapper -->
+    <div
+      id="carouselBasicExample"
+      class="carousel slide carousel-fade"
+      data-mdb-ride="carousel"
+    >
+      <!-- Indicators -->
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-mdb-target="#carouselBasicExample"
+          data-mdb-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-mdb-target="#carouselBasicExample"
+          data-mdb-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-mdb-target="#carouselBasicExample"
+          data-mdb-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+
+      <!-- Inner -->
+      <div class="carousel-inner">
+        <!-- Single item -->
+        <div class="carousel-item active">
+          <img src="assets/img/fondo.png" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block"></div>
+
+          <!-- Single item -->
+          <div class="carousel-item">
+            <img src="assets/img/fondo.png" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>PRENDAS DE VESTIR</h5>
+              <p>
+                En tejemaneje podras encontrar diferentes prendas de vestir,
+                recuerda que podemos crearla a tu gusto, o basarnos en una que
+                ya tengas en mente, no dudes en preguntarnos
+              </p>
+            </div>
+          </div>
+
+          <!-- Single item -->
+          <div class="carousel-item">
+            <img src="assets/img/fondo.png" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>AMIGURUMIS</h5>
+              <p>
+                Aqui podras encontrar hermoso amigurumis, cuentanos tus ideas
+                para hacerlas realidad, recuerda que estos pueden ser
+                personalizados, asi que no existen limites.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Inner -->
+
+        <!-- Controls -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-mdb-target="#carouselBasicExample"
+          data-mdb-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-mdb-target="#carouselBasicExample"
+          data-mdb-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- Carousel wrapper -->
+
+    <!-- <section class="section">
       <img class="imagen-principal" src="assets/img/fondo.png" alt="" />
     </section>
     <section class="section-2">
@@ -68,6 +226,11 @@
           <a class="ver-mas" href="amigurumis.html" target="_blank"> Ver más</a>
         </h4>
       </div>
-    </section>
+    </section> -->
+
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.js"
+    ></script>
   </body>
 </html>

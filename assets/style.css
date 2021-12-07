@@ -3,6 +3,18 @@
   margin: 0;
 }
 
+.navbar {
+  background-color: #e68b9f96;
+}
+
+.fab {
+  color: #e74c68;
+}
+.fas {
+  color: #e74c68;
+}
+
+/*
 body {
   background-color: #ffe3c09c;
 }
@@ -92,3 +104,4 @@ body {
   text-align: justify;
   padding: 0.5rem;
 }
+*/
